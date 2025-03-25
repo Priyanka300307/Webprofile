@@ -1,0 +1,90 @@
+* {
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.box {
+    border: 1px solid;
+    width: 350px;
+    height:450px;
+    background-color:black;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding-top: 40px;
+    box-shadow: 6px 6px 4px rgb(114, 115, 115);
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 70px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main input {
+    width: 90%;
+    height: 60px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    box-shadow: 2px 2px  rgb(167, 170, 170);
+    color: aliceblue;
+    text-align-last: right;
+
+}
+.f1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+ .mybg{ 
+    background-color: grey! important;
+}
+.mybgs{
+    background-color: orange !important;
+}
+.f2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.f3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.f4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.f5{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.btn{
+    width:60px ! important;
+    height:40px! important;
+    box-shadow: 4px 4px 5px rgb(98, 100, 101);
+}
+.myfont i{
+    font-size: 7px !important;
+}
+#by{
+    color:rgb(164, 166, 168);
+    margin-left: 300px;
+    font-size: smaller;
+    margin-top: 10px;
+}
